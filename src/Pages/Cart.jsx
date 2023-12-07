@@ -1,11 +1,12 @@
 import React from 'react'
+import CartItems from '../Components/CartItems/CartItems'
 
-const cart = () => {
+const Cart = () => {
   return (
     <div>
-      
+      <CartItems/>
     </div>
   )
 }
 
-export default cart
+export default Cart
