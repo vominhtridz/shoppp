@@ -2,9 +2,10 @@ import React from "react";
 import './CartItems.css'
 import { ShopContext } from "../../Context/ShopContext";
 import remove_icon from '../Assets/cart_cross_icon.png'
+import { useContext } from "react";
 
 const CartItems = () => {
-        const {getTotalCartAmount,all_product, cartItems,removeFromCart} = ussContext(ShopContext);
+        const {getTotalCartAmount,all_product, cartItems,removeFromCart} = useContext(ShopContext);
     return(
         <div className="cartitems">
             <div className="cartitemss-format-main">
